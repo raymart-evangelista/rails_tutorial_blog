@@ -16,8 +16,11 @@
     <%= javascript_importmap_tags %>
   </head>
   <body>
-    HEADER HERE
-    <%= yield %>
+    <%= render "articles/header"%>
+    <div class="container">
+      <br>
+      <%= yield %>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
